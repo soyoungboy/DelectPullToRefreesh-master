@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="10dip" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/tv_license"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="10dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/delete_ly"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dip"
+            android:background="#DC143C"
+            android:focusable="false"
+            android:text="删 除"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/anim_ly"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+</RelativeLayout>

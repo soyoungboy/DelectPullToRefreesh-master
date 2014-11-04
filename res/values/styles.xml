@@ -1,0 +1,49 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="PersonalLine">
+        <item name="android:background">#ffcccccc</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="PersonalRightIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="PersonalMainLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/background_corners</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">1dp</item>
+    </style>
+
+    <style name="style_15_EBEBEB_BOLD">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffebebeb</item>
+    </style>
+
+</resources>
